@@ -1,0 +1,43 @@
+.frontage__signIn{
+    background:#96C7C1 ;
+    border: 0px;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+.frontage__joinUs{
+    border-radius: 10px;
+    background:#96C7C1;
+    padding: 2%;
+    border: 0px;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+.frontage__signIn:hover{
+    transform: scale(110%);
+    transition: 1s;
+    background:hsl(173, 34%, 58%) ;
+    color:#fff;
+}
+.frontage__joinUs:hover{
+    transform: scale(110%);
+    transition: 1s;
+    background:hsl(173, 34%, 58%) ;
+    color:#fff;
+}
+
+
+.frontage__button{
+
+ position: fixed;
+ display: flex;
+ justify-content: space-between;
+ bottom: 2.5%;
+ right: 2.5%;
+ z-index: 1;
+ font-family: "Roboto";
+ width: 210px;
+}
+.frontage__logo{
+    margin: 0 auto;
+}

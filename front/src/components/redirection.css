@@ -1,0 +1,9 @@
+.redirection__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin:30% auto;
+    width: 40%;
+   
+}

@@ -1,0 +1,22 @@
+.registerMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    outline: black solid 1px;
+    padding: 7% 5%;
+    margin:0 auto;
+    width: 60%;
+    margin-top: 15%;
+    border-radius: 3%;
+    max-width: 500px;
+    max-height: 600px;
+}
+.registerMain_form{
+    display: flex;
+    flex-direction: column;
+    margin: 7%;
+    padding: 7%;
+    outline: pink solid 1px;
+    border-radius: 3%;
+}
+

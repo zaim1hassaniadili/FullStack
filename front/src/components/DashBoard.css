@@ -1,0 +1,36 @@
+/*
+#89B5AF
+#96C7C1
+#DED9C4
+#D0CAB2
+*/ 
+.dashBoard__form{
+    display: flex;
+    
+}
+.dashBoard__phrase{
+    display:flex;
+    width: 75%;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    border: 1px solid #D0CAB2;
+    box-shadow:0px 0 15px  #D0CAB2 ;
+    background-color: #DED9C4;
+    padding:0 3%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.dashBoard__select{
+    background-color: #DED9C4;
+    border: 0;
+    margin: 10px;
+    font-size: 1.2rem;
+    padding: 0;
+}
+@media screen and (max-width:600px){
+    .dashBoard__phrase, .dashBoard__select{
+        display: none;
+      }
+}

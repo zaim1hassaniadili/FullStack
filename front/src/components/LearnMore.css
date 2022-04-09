@@ -1,0 +1,36 @@
+
+.learnMore__container{
+    position: relative;
+    max-width: 1500px;
+    width: 70%;
+    margin:0 auto;
+    margin-top: 10vw;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #96C7C1;
+    background-color: #96C7C1;
+    border: 1px solid #89B5AF;
+    padding: 5% 7%;
+    border: 10px
+}
+.learnMore__button{
+    position:absolute;
+    left: 88%;
+    bottom:5%;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 5px;
+    border: 0;
+    background: #96C7C1 ;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.learnMore__button:hover{
+    transform: scale(110%);
+    transition: 1s;
+    background:hsl(173, 34%, 58%) ;
+    color:#fff;
+}
